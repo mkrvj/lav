@@ -13,7 +13,3 @@ class RectangleTestCase(unittest.TestCase):
     def test_perimeter_1_mul(self):
        res = perimeter(5, 4)
        self.assertEqual(res, 18)
-
-   def test_perimeter_1_mul(self):
-       res = perimeter(5, 10)
-       self.assertEqual(res, 30)
